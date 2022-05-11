@@ -1,9 +1,14 @@
-// import components here
+import React from "react";
+import ProfilePic from "./Components/ProfilePic";
+import Intro from "./Components/Intro";
 
 function App() {
   return (
-    <div className="App">
-      <h1>THIS IS MY BUSINESS CARD</h1>
+    <div className="app">
+      <div className="card-wrapper">
+        <ProfilePic />
+        <Intro />
+      </div>
     </div>
   );
 }
