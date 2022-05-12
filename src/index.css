@@ -17,7 +17,7 @@ body {
   max-width: 317px;
   margin: 50px auto;
   background-color: #1A1B21;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .intro {
@@ -64,4 +64,9 @@ body {
 .linkedin {
   color: #FFFFFF;
   background-color: #5093E2;
+}
+
+.footer {
+  background-color: #161619;
+  height: 100px;
 }
