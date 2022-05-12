@@ -4,12 +4,12 @@
 
 body {
   margin: 0;
-  background-color: #23252C;
-  font-family: 'Inter', sans-serif;
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
 }
 
 .app {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .card-wrapper {
@@ -17,7 +17,7 @@ body {
   padding-bottom: 100px;
   max-width: 317px;
   margin: 50px auto;
-  background-color: #1A1B21;
+  background-color: #1a1b21;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .intro h3 {
-  color: #F3BF99;
+  color: #f3bf99;
   font-size: 13px;
 }
 
@@ -45,6 +45,26 @@ body {
   justify-content: center;
 }
 
+.btn-wrapper {
+  position: relative;
+}
+
+.contact-icon {
+  position: absolute;
+  top: 25%;
+  font-size: 16px;
+}
+
+.email-icon {
+  color: #1e1f26;
+  left: 22%;
+}
+
+.linkedin-icon {
+  color: #ffffff;
+  left: 22%;
+}
+
 .btn {
   padding: 0 20px;
   border-radius: 6px;
@@ -52,19 +72,22 @@ body {
   height: 34px;
   width: 115px;
   margin: 0 10px;
-  text-align: center;
   border: none;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .email {
-  color: #1E1F26;
+  color: #1e1f26;
   background-color: white;
+  text-align: center;
 }
 
 .linkedin {
-  color: #FFFFFF;
-  background-color: #5093E2;
+  color: #ffffff;
+  background-color: #5093e2;
+  text-align: right;
 }
 
 .footer {
