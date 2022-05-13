@@ -5,10 +5,10 @@ import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 export default function Footer() {
   return (
     <div className="footer">
-      <FontAwesomeIcon icon={brands("twitter-square")} />
-      <FontAwesomeIcon icon={brands("facebook-square")} />
-      <FontAwesomeIcon icon={brands("instagram-square")} />
-      <FontAwesomeIcon icon={brands("github-square")} />
+      <div className="icon-div"><FontAwesomeIcon icon={brands("twitter-square")} /></div>
+      <div className="icon-div"><FontAwesomeIcon icon={brands("facebook-square")} /></div>
+      <div className="icon-div"><FontAwesomeIcon icon={brands("instagram-square")} /></div>
+      <div className="icon-div"><FontAwesomeIcon icon={brands("github-square")} /></div>
     </div>
   );
 }

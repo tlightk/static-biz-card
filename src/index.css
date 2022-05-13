@@ -62,7 +62,7 @@ body {
 
 .email-icon {
   color: #1e1f26;
-  left: 22%;
+  left: 27%;
 }
 
 .linkedin-icon {
@@ -87,6 +87,7 @@ body {
   color: #1e1f26;
   background-color: white;
   text-align: center;
+  padding-right: 2px;
 }
 
 .linkedin {
@@ -109,6 +110,7 @@ body {
 }
 
 .footer {
+  display: flex;
   background-color: #161619;
   height: 64px;
   width: 317px;
@@ -117,4 +119,10 @@ body {
   border-radius: 0px 0px 10px 10px;
   align-items: center;
   justify-content: center;
+}
+
+.icon-div {
+  padding: 0 12px;
+  color: #918E9B;
+  font-size: 25px;
 }
