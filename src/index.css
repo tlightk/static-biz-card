@@ -28,11 +28,14 @@ body {
 
 .intro h2 {
   font-size: 25px;
+  font-weight: 700;
 }
 
 .intro h3 {
   color: #f3bf99;
   font-size: 13px;
+  margin-top: -15px;
+  font-weight: 400;
 }
 
 .intro p {
