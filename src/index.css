@@ -23,6 +23,7 @@ body {
 
 .intro {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .intro h2 {
@@ -34,9 +35,13 @@ body {
   font-size: 13px;
 }
 
+.intro p {
+  font-size: 10px;
+}
+
 .profile-pic {
   width: 317px;
-  height: 317;
+  height: 317px;
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -90,11 +95,26 @@ body {
   text-align: right;
 }
 
+.profile-info {
+  padding: 20px 36px 0 36px;
+}
+
+.content h2 {
+  font-size: 16px;
+  margin-bottom: -5px;
+}
+
+.content p {
+  font-size: 10px;
+}
+
 .footer {
   background-color: #161619;
-  height: 100px;
+  height: 64px;
   width: 317px;
   position: absolute;
   bottom: 0px;
   border-radius: 0px 0px 10px 10px;
+  align-items: center;
+  justify-content: center;
 }

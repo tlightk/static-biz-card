@@ -5,7 +5,7 @@ export default function Intro() {
     <div className="intro">
       <h2>Kittles Spotfur</h2>
       <h3>Underwear Model</h3>
-      <p>website</p>
+      <p>kittles.website</p>
     </div>
   );
 }
